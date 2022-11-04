@@ -5,8 +5,10 @@
 L’entreprise « prêt à dépenser », qui propose des crédits à la consommation pour des personnes ayant peu ou pas du tout d'historique de prêt, souhaite développer un modèle de scoring de la probabilité de défaut de paiement du client pour étayer la décision d'accorder ou non un prêt à un client potentiel en s’appuyant sur des sources de données variées (données comportementales, données provenant d'autres institutions financières, etc.).
 ## Mission  
 •	Construire un modèle de scoring qui donnera une prédiction sur la probabilité de faillite d'un client de façon automatique.        
-•	Construire un dashboard interactif à destination des gestionnaires de la relation client permettant d'interpréter les prédictions faites par le modèle et d’améliorer la connaissance client des chargés de relation client.       
-Ce projet est découpé en trois parties:        
+•	Construire un dashboard interactif à destination des gestionnaires de la relation client permettant d'interpréter les prédictions faites par le modèle et d’améliorer la connaissance client des chargés de relation client.          
+
+Ce projet est découpé en trois parties:   
+
 ## 1. Partie modélisation    
 •	Code P7_modelisation : Ce fichier contient le code de la modélisation du prétraitement des données à la prédiction et les interprétations globales et locales via SHAP en passant par l’étape importante de feature engineering.      
 •	Les fonctions utilisées sont disponibles dans le module p7_functions         
@@ -28,10 +30,8 @@ Ce projet est découpé en trois parties:
 -	Choix d'un numéro de demande dans menu déroulant   
 -	Décision pour le crédit (accepté ou refusée) et le score sur une jauge   
 -	Importance globale et locale des caractéristiques dans la décision du modèle   
--	Comparaison du client avec d’autres clients au choix dans un menu déroulant, un groupe des clients ou seulement les clients similaires :    
-
-- *Case à cocher : Représentation en boxplot des clients selon leur classe (crédit accepté ou rejeté) et place le client selon la couleur de sa classe (rouge ou vert)*   
-- *Case à cocher : Une analyse bi-variée interactive des caractéristiques à choisir dans 2 listes déroulantes et plaçant le client sur la courbe*    
+-	Comparaison du client avec d’autres clients au choix dans un menu déroulant, un groupe des clients ou seulement les clients similaires :  
+- *Case à cocher : Représentation en boxplot des clients selon leur classe (crédit accepté ou rejeté) et place le client selon la couleur de sa classe (rouge ou vert)*  - *Case à cocher : Une analyse bi-variée interactive des caractéristiques à choisir dans 2 listes déroulantes et plaçant le client sur la courbe*    
 
 
 Sources :    
